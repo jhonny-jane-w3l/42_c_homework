@@ -15,7 +15,7 @@
 char	*ft_strncat(char *strd1, char *strs2, unsigned int nb)
 {
 	int	i;
-	unsigned int	j;
+	unsigned int j;
 
 	i = 0;
 	j = 0;

@@ -17,6 +17,10 @@ int	ft_strncmp(char *str1, char *str2, unsigned int n)
 	unsigned int	i;
 
 	i = 0;
+	if (str2[0] == '\0')
+	{
+		return (0);
+	}
 	while ((str1[i] != '\0' || str2[i] != '\0') && str1[i] == str2[i] && i < n)
 	{
 		if (str1[i] != str2[i])
